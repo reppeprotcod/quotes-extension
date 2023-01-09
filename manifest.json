@@ -1,0 +1,17 @@
+{
+
+    "manifest_version": 2,
+    "name": "Quotes",
+    "version": "1.0",
+  
+    "description": "Quotes every hour.",
+    "icons": {
+      "48": "icons/feather-pen.png"
+    },
+
+    "chrome_url_overrides": {
+      "newtab": "index.html"
+    }
+  
+  }
+  

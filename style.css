@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    background: rgb(239,196,190);
+    background: radial-gradient(circle, rgba(239,196,190,1) 0%, rgba(148,187,233,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.remark{
+    color: aliceblue;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    text-shadow: 0px 0px 15px rgb(44, 52, 61);
+}
